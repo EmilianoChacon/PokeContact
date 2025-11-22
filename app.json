@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Pokecontact",
+    "slug": "pokecontact",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "icon": "./assets/images/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pokecontact.app",
+      "infoPlist": {
+        "NSContactsUsageDescription": "This app needs access to your contacts to create and manage Pokémon contacts.",
+        "NSCameraUsageDescription": "This app needs access to your camera to scan QR codes for receiving contacts."
+      }
+    },
+    "android": {
+      "package": "com.pokecontact.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#000000"
+      },
+      "icon": "./assets/images/icon.png",
+      "permissions": [
+        "READ_CONTACTS",
+        "WRITE_CONTACTS",
+        "CAMERA"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow Pokecontact to access your contacts to create and manage Pokémon contacts."
+        }
+      ],
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow Pokecontact to access your camera to scan QR codes for receiving contacts."
+        }
+      ]
+    ]
+  }
+}
