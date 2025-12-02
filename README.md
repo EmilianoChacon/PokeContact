@@ -60,7 +60,7 @@ Organizadas por categorías:
 
 ---
 
-## 🟦 **Pantallas Principales**
+## **Pantallas Principales**
 <div align="center">
   <img src="./assets/images/PantallaPrincipal.jpeg" width="300"/>
   <img src="./assets/images/PantallaAgregarContactos.jpeg" width="300"/>
@@ -68,7 +68,7 @@ Organizadas por categorías:
 
 ---
 
-## 🟩 **Selección y Captura**
+## **Selección y Captura**
 <div align="center">
   <img src="./assets/images/PantallaCapturaContacto.jpeg" width="300"/>
   <img src="./assets/images/PantallaSeleccionAleatoriaContacto.jpeg" width="300"/>
@@ -77,7 +77,7 @@ Organizadas por categorías:
 
 ---
 
-## 🟧 **Filtros y Búsqueda**
+## **Filtros y Búsqueda**
 <div align="center">
   <img src="./assets/images/PantallaFiltroTipos.jpeg" width="300"/>
   <img src="./assets/images/PantallaFiltroBusqueda.jpeg" width="300"/>
@@ -85,7 +85,7 @@ Organizadas por categorías:
 
 ---
 
-## 🟥 **Detalles del Contacto**
+## **Detalles del Contacto**
 <div align="center">
   <img src="./assets/images/PantallaInfoContacto.jpeg" width="300"/>
   <img src="./assets/images/PantallaInfoContacto2.jpeg" width="300"/>
@@ -102,6 +102,8 @@ Organizadas por categorías:
 npm install
 
 npm start
+
+O desde GitHub Descargar apk aquí: https://github.com/EmilianoChacon/PokeContact/releases/tag/contacts
 
 # Estructura del proyecto
 
@@ -128,15 +130,15 @@ pokecontact/
 
 | Tecnología                   | Uso                        |
 | ---------------------------- | -------------------------- |
-| **React Native**             | Base del desarrollo móvil  |
-| **Expo**                     | Entorno y herramientas     |
-| **React Navigation**         | Navegación entre pantallas |
-| **Axios**                    | Llamadas a PokéAPI         |
-| **AsyncStorage**             | Persistencia local         |
-| **React Native Reanimated**  | Animaciones avanzadas      |
-| **React Native Animatable**  | Transiciones               |
-| **Expo AV**                  | Sonidos                    |
-| **React Native QR Code SVG** | Generación de códigos QR   |
+| React Native                 | Base del desarrollo móvil  |
+| Expo                         | Entorno y herramientas     |
+| React Navigation             | Navegación entre pantallas |
+| Axios                        | Llamadas a PokéAPI         |
+| AsyncStorage                 | Persistencia local         |
+| React Native Reanimated      | Animaciones avanzadas      |
+| React Native Animatable      | Transiciones               |
+| Expo AV                      | Sonidos                    |
+| React Native QR Code SVG     | Generación de códigos QR   |
 
 # Diseño
 
