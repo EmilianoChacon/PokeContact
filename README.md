@@ -1,33 +1,110 @@
-# Pokecontact
+<div align="center">
+  
+# PokeContact  
+### Una app de contactos con temática de Pokémon
 
-Una app de contactos con temática de Pokémon
+<img src="./images/PantallaPrincipal.jpeg" width="300"/>
 
-## Características
+---
 
-- **Home Screen**: Busqueda de contactos con filtros y visualización de contactos, nombres, números, pokémon asignado y estadísticas
-- **Add Contact**: Añadir contactos con sus pokémon mediante aleatoriedad o busqueda
-- **Contact Details**: Ver detalles y estadísticas de contactos propios o con otros contactos
-- **Trade Screen**: Comparte contactos mediante JSONs (en proceso)
-- **Animations**: Animaciones vistozas
-- **PokéAPI Integration**: Datos en tiempo real mediante la API de Pokémon
+[![Made with React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
+[![Expo](https://img.shields.io/badge/Expo-000?style=for-the-badge&logo=expo&logoColor=white)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)]()
 
-## Instalación
+</div>
 
-1. Instalar dependencias:
+---
+
+# Sobre la Aplicación
+
+**PokeContact** es una aplicación desarrollada con **React Native + Expo** que transforma tu lista de contactos en una experiencia temática inspirada en una Pokédex.  
+Cada contacto tiene un Pokémon asignado, estadísticas, detalles visuales y animaciones únicas.
+
+---
+
+# Características Principales
+
+### **Home Screen**
+- Búsqueda de contactos  
+- Filtros dinámicos  
+- Visualización de Pokémon, estadísticas y datos del contacto  
+
+### **Add Contact**
+- Añadir contactos con Pokémon asignado aleatoriamente  
+- Buscar Pokémon manualmente  
+- Vista previa del contacto antes de añadirlo  
+
+### **Contact Details**
+- Ver estadísticas completas del Pokémon asignado  
+- Animaciones  
+- Información extendida del contacto  
+
+### **Trade Screen** *(En desarrollo)*
+- Intercambiar contactos mediante JSON  
+- Compatibilidad futura con QR  
+
+### **Animaciones y UI**
+- Animaciones vistosas  
+- Estilo inspirado en Pokédex futurista  
+- Sonidos, transiciones y efectos  
+
+### **PokéAPI Integration**
+- Datos reales y actualizados  
+- Estadísticas, sprites, tipos y más
+
+---
+
+# Capturas de Pantalla
+
+Organizadas por categorías:
+
+---
+
+## 🟦 **Pantallas Principales**
+<div align="center">
+  <img src="./images/PantallaPrincipal.jpeg" width="300"/>
+  <img src="./images/PantallaAgregarContactos.jpeg" width="300"/>
+</div>
+
+---
+
+## 🟩 **Selección y Captura**
+<div align="center">
+  <img src="./images/PantallaCapturaContacto.jpeg" width="300"/>
+  <img src="./images/PantallaSeleccionAleatoriaContacto.jpeg" width="300"/>
+  <img src="./images/PantallaSeleccionListaContacto.jpeg" width="300"/>
+</div>
+
+---
+
+## 🟧 **Filtros y Búsqueda**
+<div align="center">
+  <img src="./images/PantallaFiltroTipos.jpeg" width="300"/>
+  <img src="./images/PantallaFiltroBusqueda.jpeg" width="300"/>
+</div>
+
+---
+
+## 🟥 **Detalles del Contacto**
+<div align="center">
+  <img src="./images/PantallaInfoContacto.jpeg" width="300"/>
+  <img src="./images/PantallaInfoContacto2.jpeg" width="300"/>
+  <img src="./images/PantallaCompatibilidad.jpeg" width="300"/>
+</div>
+
+---
+
+# Instalación
+
+### 1. Instalar dependencias
+
 ```bash
 npm install
-```
 
-2. Iniciar el proyecto en Expo Go:
-```bash
 npm start
-```
 
-3. Abrir la app mediante la app Expo GO
+# Estructura del proyecto
 
-## Estructura del proyecto
-
-```
 pokecontact/
 ├── components/
 │   ├── ContactCard.js
@@ -42,31 +119,30 @@ pokecontact/
 │   ├── pokeApi.js
 │   └── storage.js
 ├── assets/
-│   └── (sounds and images)
+│   ├── images/
+│   └── sounds/
 ├── theme.js
 └── App.js
-```
 
-## Tecnologías usadas
+#Tecnologías utilizadas
 
-- React Native
-- Expo
-- React Navigation
-- React Native Animatable
-- React Native Reanimated
-- Expo AV (for sounds)
-- Axios (for API calls)
-- AsyncStorage (for local storage)
-- React Native QR Code SVG
+| Tecnología                   | Uso                        |
+| ---------------------------- | -------------------------- |
+| **React Native**             | Base del desarrollo móvil  |
+| **Expo**                     | Entorno y herramientas     |
+| **React Navigation**         | Navegación entre pantallas |
+| **Axios**                    | Llamadas a PokéAPI         |
+| **AsyncStorage**             | Persistencia local         |
+| **React Native Reanimated**  | Animaciones avanzadas      |
+| **React Native Animatable**  | Transiciones               |
+| **Expo AV**                  | Sonidos                    |
+| **React Native QR Code SVG** | Generación de códigos QR   |
 
-## Diseño
+# Diseño
 
-La app toma de inspiración una paleta de colores futurista y con estilo de Pokédex:
-- Color primario: #E3350D (Pokémon red)
-- Color para acentuar: #39FF14 (neon green)
-- Texturas tipo metal y efectos LED
-- Trancisiones simples y animaciones vistosas
-
-## Licencias
-
-MIT
+El diseño está inspirado en una Pokédex moderna:
+ Rojo primario: #E3350D
+ Verde neón: #39FF14
+ Texturas metálicas y estilo futurista
+ Efectos LED
+ Transiciones suaves y animaciones vistosas
