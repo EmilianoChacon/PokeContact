@@ -5,7 +5,6 @@
 
 <img src="./images/PantallaPrincipal.jpeg" width="300"/>
 
----
 
 [![Made with React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
 [![Expo](https://img.shields.io/badge/Expo-000?style=for-the-badge&logo=expo&logoColor=white)]()
@@ -108,6 +107,7 @@ npx expo start
 npm install -g eas-cli
 eas build -p android --profile preview
 
+---
 
 ---
 
