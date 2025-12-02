@@ -99,17 +99,29 @@ Organizadas por categorías:
 ### 1. Instalar dependencias
 
 ```bash
+git clone https://github.com/EmilianoChacon/PokeContact.git
+cd PokeContact
 npm install
+npx expo start
 
-npm start
+
+npm install -g eas-cli
+eas build -p android --profile preview
+
+
+---
 
 ## Descargar APK
 
-> Descarga la versión más reciente de **PokeContact** para Android.
+Descarga aquí la versión más reciente de **PokeContact** para Android.
 
 <div align="center">
+  <a href="https://github.com/EmilianoChacon/PokeContact/releases/download/contacts/PokeContact.apk">
+    <img src="https://img.shields.io/badge/Download%20APK-PokeContact-00C853?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  <br><br>
   <a href="https://github.com/EmilianoChacon/PokeContact/releases/tag/contacts">
-    <img src="https://img.shields.io/badge/Download%20Latest%20APK-00C853?style=for-the-badge&logo=android&logoColor=white" />
+    Ver página del release
   </a>
 </div>
 
