@@ -62,34 +62,34 @@ Organizadas por categorías:
 
 ## 🟦 **Pantallas Principales**
 <div align="center">
-  <img src="./images/PantallaPrincipal.jpeg" width="300"/>
-  <img src="./images/PantallaAgregarContactos.jpeg" width="300"/>
+  <img src="./assets/images/PantallaPrincipal.jpeg" width="300"/>
+  <img src="./assets/images/PantallaAgregarContactos.jpeg" width="300"/>
 </div>
 
 ---
 
 ## 🟩 **Selección y Captura**
 <div align="center">
-  <img src="./images/PantallaCapturaContacto.jpeg" width="300"/>
-  <img src="./images/PantallaSeleccionAleatoriaContacto.jpeg" width="300"/>
-  <img src="./images/PantallaSeleccionListaContacto.jpeg" width="300"/>
+  <img src="./assets/images/PantallaCapturaContacto.jpeg" width="300"/>
+  <img src="./assets/images/PantallaSeleccionAleatoriaContacto.jpeg" width="300"/>
+  <img src="./assets/images/PantallaSeleccionListaContacto.jpeg" width="300"/>
 </div>
 
 ---
 
 ## 🟧 **Filtros y Búsqueda**
 <div align="center">
-  <img src="./images/PantallaFiltroTipos.jpeg" width="300"/>
-  <img src="./images/PantallaFiltroBusqueda.jpeg" width="300"/>
+  <img src="./assets/images/PantallaFiltroTipos.jpeg" width="300"/>
+  <img src="./assets/images/PantallaFiltroBusqueda.jpeg" width="300"/>
 </div>
 
 ---
 
 ## 🟥 **Detalles del Contacto**
 <div align="center">
-  <img src="./images/PantallaInfoContacto.jpeg" width="300"/>
-  <img src="./images/PantallaInfoContacto2.jpeg" width="300"/>
-  <img src="./images/PantallaCompatibilidad.jpeg" width="300"/>
+  <img src="./assets/images/PantallaInfoContacto.jpeg" width="300"/>
+  <img src="./assets/images/PantallaInfoContacto2.jpeg" width="300"/>
+  <img src="./assets/images/PantallaCompatibilidad.jpeg" width="300"/>
 </div>
 
 ---
