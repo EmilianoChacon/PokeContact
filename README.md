@@ -70,7 +70,7 @@ Organizadas por categorías:
 
 ## **Selección y Captura**
 <div align="center">
-  <img src="./assets/images/PantallaCapturaContacto.jpeg" width="300"/>
+  <img src="./assets/images/PantallaCapturaContactos.jpeg" width="300"/>
   <img src="./assets/images/PantallaSeleccionAleatoriaContacto.jpeg" width="300"/>
   <img src="./assets/images/PantallaSeleccionListaContacto.jpeg" width="300"/>
 </div>
