@@ -3,7 +3,6 @@
 # PokeContact  
 ### Una app de contactos con temática de Pokémon
 
-<img src="./assets/images/pokecontact-logo.png" width="300"/>
 <img src="./assets/images/icon.png" width="300"/>
 
 ---
