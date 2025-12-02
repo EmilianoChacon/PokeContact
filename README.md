@@ -103,7 +103,18 @@ npm install
 
 npm start
 
-O desde GitHub Descargar apk aquí: https://github.com/EmilianoChacon/PokeContact/releases/tag/contacts
+## Descargar APK
+
+> Descarga la versión más reciente de **PokeContact** para Android.
+
+<div align="center">
+  <a href="https://github.com/EmilianoChacon/PokeContact/releases/tag/contacts">
+    <img src="https://img.shields.io/badge/Download%20Latest%20APK-00C853?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+</div>
+
+
+---
 
 # Estructura del proyecto
 
@@ -126,6 +137,8 @@ pokecontact/
 ├── theme.js
 └── App.js
 
+---
+
 #Tecnologías utilizadas
 
 | Tecnología                   | Uso                        |
@@ -139,6 +152,8 @@ pokecontact/
 | React Native Animatable      | Transiciones               |
 | Expo AV                      | Sonidos                    |
 | React Native QR Code SVG     | Generación de códigos QR   |
+
+---
 
 # Diseño
 
