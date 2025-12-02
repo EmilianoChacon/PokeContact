@@ -3,8 +3,9 @@
 # PokeContact  
 ### Una app de contactos con temática de Pokémon
 
-<img src="./images/PantallaPrincipal.jpeg" width="300"/>
+<img src="./assets/images/PantallaPrincipal.jpeg" width="300"/>
 
+---
 
 [![Made with React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
 [![Expo](https://img.shields.io/badge/Expo-000?style=for-the-badge&logo=expo&logoColor=white)]()
@@ -97,7 +98,6 @@ Organizadas por categorías:
 
 ### 1. Instalar dependencias
 
-```bash
 git clone https://github.com/EmilianoChacon/PokeContact.git
 cd PokeContact
 npm install
@@ -111,7 +111,7 @@ eas build -p android --profile preview
 
 ---
 
-## Descargar APK
+# Descargar APK
 
 Descarga aquí la versión más reciente de **PokeContact** para Android.
 
@@ -151,7 +151,7 @@ pokecontact/
 
 ---
 
-#Tecnologías utilizadas
+# Tecnologías utilizadas
 
 | Tecnología                   | Uso                        |
 | ---------------------------- | -------------------------- |
