@@ -97,7 +97,7 @@ Organizadas por categorías:
 # Instalación
 
 ### 1. Instalar dependencias
-
+```bash
 git clone https://github.com/EmilianoChacon/PokeContact.git
 cd PokeContact
 npm install
@@ -106,7 +106,7 @@ npx expo start
 
 npm install -g eas-cli
 eas build -p android --profile preview
-
+```
 ---
 
 ---
@@ -129,7 +129,7 @@ Descarga aquí la versión más reciente de **PokeContact** para Android.
 ---
 
 # Estructura del proyecto
-
+```bash
 pokecontact/
 ├── components/
 │   ├── ContactCard.js
@@ -148,7 +148,7 @@ pokecontact/
 │   └── sounds/
 ├── theme.js
 └── App.js
-
+```
 ---
 
 # Tecnologías utilizadas
